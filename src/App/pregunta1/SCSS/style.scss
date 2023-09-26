@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.jgA {
+    justify-content: center !important;
+    align-items: center !important;
+    &-B {
+        background-color: #283149;
+        color: #fff !important;
+        padding: 20px;
+        border-radius: 50px;
+
+        & h5 { font-family: 'Lexend', sans-serif; }
+        & p { font-family: 'Lexend', sans-serif; }
+        & button { font-family: 'Lexend', sans-serif; }
+        &-player {
+            &A { padding-right: 20px; }
+            &B { padding-left: 20px; }
+            &Result {
+                display: flex;
+                & div { button { margin-top: 20px; } }
+            }
+            &-info {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column !important;
+                margin-top: 20px !important;
+                padding: 10px;
+                border-radius: 20px;
+                height: 100px;
+                background-color: #ff5a3e !important;
+                border: 5px solid #fff;
+            }
+        }
+    }
+}
